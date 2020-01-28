@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Men's Group</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
+      <a class="navbar-brand" href="#">The Men's Group</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#meetings">Meetings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div id="home" class="img1">
+    <h1>The Men's Group</h1>
+    <div class="typed-string">
+      <div id="typed-strings">
+        <p>Talk in a <strong>safe</strong> envirnoment.</p>
+        <p>Talk in a <strong>comfortable</strong> envirnoment.</p>
+        <p>Take the road to <strong>better.</strong></p>
+      </div>
+      <span id="typed"></span>
+    </div>
+    <button class="animated infinite flash delay-10s slow" id="button"><i class="fas fa-chevron-down"></i></button>
+  </div>
+  
+
+  
+
+  <div class="container" id="about">
+    <h2>ABOUT US</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card bg-dark text-white">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Who Are We?</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus a enim illo possimus, rerum soluta ducimus unde eum inventore nisi? Fugit culpa recusandae consequatur aut, quod tempora, quaerat consequuntur et doloremque dicta soluta ipsam atque nisi facere non distinctio obcaecati nemo a ab maiores rerum nostrum omnis. Ducimus, hic id!</p>
+         
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card bg-dark text-white">
+          <div class="card-img-overlay">
+            <h5 class="card-title">What Do We Do?</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus a enim illo possimus, rerum soluta ducimus unde eum inventore nisi? Fugit culpa recusandae consequatur aut, quod tempora, quaerat consequuntur et doloremque dicta soluta ipsam atque nisi facere non distinctio obcaecati nemo a ab maiores rerum nostrum omnis. Ducimus, hic id!</p>
+                      
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <div class="img2"></div>
+
+  <div class="container" id="meetings">
+    <h2>MEETINGS</h2>
+    <div class="col-md-6">
+      <div class="card bg-dark text-white">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Discussion Group</h5>
+          <p> <span>TIME:</span> WEDNESDAYS @ 7 PM</p>
+          <p><span>LOCATION:</span> TBD</p>
+          <p class="card-text">In our weekly meetings we discuss... Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint adipisci recusandae provident accusamus nobis sequi, velit rem voluptas dolorum.</p>
+       <a href="WednesdaySignup.html" target="_blank"><button type="button" class="btn">Sign Up!</button></a> 
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card bg-dark text-white">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Discussion Group</h5>
+          <p> <span>TIME:</span> TUESDAYS @ 7 PM</p>
+          <p><span>LOCATION:</span> TBD</p>
+          <p class="card-text">In our weekly meetings we discuss... Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint adipisci recusandae provident accusamus nobis sequi, velit rem voluptas dolorum.</p>
+          <a href="tuesdaySignup.html" target="_blank"><button type="button" class="btn">Sign Up!</button></a>         
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <div class="img3"></div>
+
+  <div id="contact">
+    <h2>Contact Us</h2>
+    <div class="container">
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+    onload="if(submitted) {window.location='thankyou.html'}"></iframe>
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeHZAO4uDtdPdoLpc7G3jTMb4Dm8LuI22gWj3Hm-CdQ8H-Kyg/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm();">
+        <h5>Sign Up Below For Updates</h5>
+        <div class="form-group">
+          <label for="fName">First Name</label>
+          <input type="text" class="form-control" id="fName" placeholder="First name..." required name="entry.2015666206">
+        </div>
+
+        <div class="form-group">
+          <label for="lName">Last Name</label>
+          <input type="text" class="form-control" id="lName" placeholder="Last Name..." required name="entry.1480082291">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Email..." name="entry.825759813">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Phone Number..." required name="entry.2093129349">
+        </div>
+     
+      
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    </div>
+    
+  </div>
+
+  <div class="img1">
+    <div class="address-box">
+      <p>Chat with friends</p>
+      <hr class="ruler">
+      <p>The Barber Shop</p>
+      <p>1234 Street</p>
+      <p>Charlotte, NC 28102</p>
+      
+    </div>
+
+    <div id="map"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="widget">
+                    <div class="footer-text text-center">
+                            <div class="copyright">Made By April Craig
+                            </div>
+                        </div>
+                </div>
+            </div>
+</footer>
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Typed JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVKHDSMj8uPJ1b3x7aiZfPj1fLnplgfUg&callback=initMap"
+    async defer></script>
+  <!-- Custom -->
+  <script src="main.js"></script>
+
+  
+</body>
+</html>

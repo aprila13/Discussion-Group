@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.img1, .img2, .img3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-attachment: scroll for mobile; */
+}
+
+.img1 {
+  background-image: url("images/road.jpg");
+  min-height: 100%;
+  margin-top: 0;
+  opacity: .9;
+}
+
+.img2, .img3 {
+  background-image: url("images/road.jpg");
+  min-height: 400px;
+}
+
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  padding-bottom: 1.5rem;
+  font-size: 6rem;
+  text-align: center;
+  margin: auto;
+  padding-top: 300px;
+  color: black;
+}
+
+
+.typed-string {
+  color: black;
+  font-size: 2.3rem;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+}
+
+.typed-string p {
+  color: black;
+}
+
+#button{
+  color: black;
+  font-size: 3.5rem;
+  text-align: center;
+  outline: none; 
+}
+
+#button{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  padding-top: 180px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+ visibility: hidden;
+ background-color: black !important;
+}
+
+
+.container form {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  color: black;
+  background-color: #d9d7d2;
+  height: 70vh;
+  padding: 20px;
+}
+
+#contact {
+  height: 90%;
+}
+
+#contact h2 {
+  text-align: center;
+  margin: auto;
+  color: black;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.form-group{
+  color: black;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+#about, #meetings {
+  height: 70%;
+}
+#about h2, #meetings h2 {
+text-align: center;
+margin-bottom: 20px;
+margin-top: 10px;
+color: black;
+}
+.card-img-overlay {
+  background-color: rgb(253, 253, 253);
+}
+
+.card {
+  height: 18rem;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border: none;
+text-align: center;
+height: 400px;
+}
+.card-text {
+  color: black;
+  padding-bottom: 1rem;
+  font-family: 'Pacifico';
+  font-size: 1.2rem;
+}
+
+.card-title {
+  margin-bottom: 1.5rem;
+  color: black;
+  font-family: 'Quicksand';
+  font-size: 2rem;
+}
+.btn-light {
+  border: none;
+}
+
+#meetings .col-md-6 {
+  float: right;
+}
+
+form h5 {
+  margin-bottom: 30px;
+}
+
+.col-md-6 p {
+  color: black;
+}
+
+.col-md-6 p span {
+  font-weight: bold;
+}
+
+
+
+
+.thanks-img {
+  background-image: url('images/openarms.jpg');
+}
+
+.thanks p {
+  color: black;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.img1 .address-box {
+  background-color: transparent;
+  width: 45%;
+  position: relative;
+  top: 260px;
+  left: 40px;
+  color: white;
+  font-size: 2.7rem;
+  font-family: 'Quicksand';
+  font-weight: bold;
+}
+
+#map {
+  height: 400px;
+  width: 50%;
+  float: right;
+  right: 40px;
+}
+
+.ruler {
+    border: 0;
+    height: 1px;
+    background: white;
+    width: 55%;
+}
+
+.address-link {
+  padding: 0;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #edeff2;
+}
+
+
+
+

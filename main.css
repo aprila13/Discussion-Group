@@ -181,9 +181,6 @@ form h5 {
   font-weight: bold;
 }
 
-
-
-
 .thanks-img {
   background-image: url('images/openarms.jpg');
 }
@@ -232,3 +229,78 @@ footer {
 
 
 
+/* media queries */
+
+@media (max-width: 575px) {
+  #about {
+    height: 120%;
+  }
+
+ 
+
+ 
+
+}
+
+
+
+@media (max-width: 767px){
+  .second {
+    margin-top: 20px;
+  }
+
+  #meetings {
+    height: 120%;
+    margin-bottom: 5%;
+  }
+
+    .container form {
+    width: 80%;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .third {
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 990px) {
+  #button{
+    position: relative;
+    bottom: 35px;
+  }
+
+  .btn {
+    position: relative;
+    bottom: 25px;
+  }
+
+  #map {
+    height: 300px;
+    width: 40%;
+  }
+
+  .img1 .address-box {
+    font-size: 2rem;
+  }
+
+  .ruler {
+    border: 0;
+    height: 1px;
+    background: white;
+    width: 70%;
+}
+
+#subBtn {
+  position: relative;
+    bottom: 2px;
+  }
+}

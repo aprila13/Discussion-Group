@@ -120,6 +120,7 @@ function meetingLastName() {
     alert("Name can't be blank") ;
     return false;
 
+    
   }
   if (!lName.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
     alert("Please enter your correct name") ;//Validation Message
@@ -175,53 +176,7 @@ else {
 }
 }
 
-//Google Map
-function initMap() {
-  //Map options
-    const options = {
-      zoom: 11,
-      center: {lat: 35.2271, lng: -80.8431}
-    }
-  //New Map
-    const map = new google.maps.Map(document.getElementById('map'), options)
 
-   //Add Marker
-   const marker = new google.maps.Marker(
-     {
-       position: {lat: 35.2271, lng: -80.8431},
-       map:map
-     }
-   ) 
-     //Adds text to marker when clicked
-   const infoWindow = new google.maps.InfoWindow({content: '<h1 class= "address-link">Address Here</h1>'});
-
-   marker.addListener('click', function(){
-     infoWindow.open(map,marker)
-   });
-
-  //  To add multiple markers.  First out add marker
-  //  addMarker({
-  //    coords:{lat:40.7282, lng:-73.7949},
-  //    iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-  //   });
-
-  //  addMarker(
-  //    {coords:{lat:40.6958, lng:-73.8272}
-  //   });
-
-  //  addMarker(
-  //    {coords:{lat:40.7380, lng:-73.8801}
-  //   });
-
-  //  //Add Marker Function
-  //  function addMarker(props){
-  //    let marker = new google.maps.Marker({
-  //      position: props.coords,
-  //      map:map,
-  //      icon: props.iconImage
-  //    })
-  //  }
-  }
   
 
   

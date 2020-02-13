@@ -20,6 +20,19 @@ body, html {
   color: #666;
 }
 
+#topics{
+  list-style-type: none;
+  font-family: 'Quicksand';
+  font-size: 1.4rem;
+}
+
+#about p {
+  font-family: 'Quicksand';
+  font-size: 1.3rem;
+}
+
+
+
 .img1, .img2, .img3 {
   position: relative;
   background-position: center;
@@ -85,6 +98,9 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
  background-color: black !important;
 }
 
+.nav-link.text-light:hover {
+  color: blue !important;
+}
 
 .container form {
   width: 50%;
@@ -123,9 +139,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   color: white;
 }
 
-#about, #meetings {
-  height: 70%;
+#about {
+  height: 130%;
 }
+
 #about h2, #meetings h2 {
 text-align: center;
 margin-bottom: 20px;
@@ -138,12 +155,7 @@ color: black;
 
 .card {
   height: 18rem;
-  background: #bdc3c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #bdc3c7, #2c3e50);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  
 border: none;
 text-align: center;
 height: 400px;
@@ -165,9 +177,6 @@ height: 400px;
   border: none;
 }
 
-#meetings .col-md-6 {
-  float: right;
-}
 
 form h5 {
   margin-bottom: 30px;
@@ -177,8 +186,9 @@ form h5 {
   color: black;
 }
 
-.col-md-6 p span {
+.col-4 p span {
   font-weight: bold;
+  color: black;
 }
 
 .thanks-img {
@@ -233,10 +243,12 @@ footer {
 
 @media (max-width: 575px) {
   #about {
-    height: 120%;
+    height: 200%;
   }
 
- 
+ .meeting-btn {
+   margin-top: 40%;
+ }
 
  
 
@@ -249,10 +261,6 @@ footer {
     margin-top: 20px;
   }
 
-  #meetings {
-    height: 120%;
-    margin-bottom: 5%;
-  }
 
     .container form {
     width: 80%;
@@ -268,6 +276,10 @@ footer {
 
   .third {
     margin-top: 20px;
+  }
+
+  .meeting-btn {
+    margin-top: 50%;
   }
 }
 

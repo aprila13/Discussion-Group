@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tuesday Sign-Up</title>
+  <title>Sign-Up</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <style>
@@ -61,29 +61,30 @@ h2 {
 <body>
   
   <div class="img1" id="sign-up">
-    <h2>Tuesday Meeting Sign-Up</h2>
+    <h2>Meeting Sign-Up</h2>
     <div class="container">
-      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-    onload="if(submitted) {window.location='thankyou.html'}"></iframe>
-      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfMpp0jnZno2HgWeZdDCqlNs3YLFXgBXc5P7eMZ4BaaSkZZ9A/formResponse" method="post" target="hidden_iframe" onsubmit="return validateMeeting();">
+      <form
+  action="https://formspree.io/xvoallql"
+  method="POST" onsubmit="return validateMeeting();">
+      
         <div class="form-group">
           <label for="firstName">First Name</label>
-          <input type="text" class="form-control" id="firstName" placeholder="First name..." required name="entry.277037063">
+          <input type="text" class="form-control" id="firstName" placeholder="First name..." required name="Firstname">
         </div>
 
         <div class="form-group">
           <label for="lastName">Last Name</label>
-          <input type="text" class="form-control" id="lastName" placeholder="Last Name..." required name="entry.907983282">
+          <input type="text" class="form-control" id="lastName" placeholder="Last Name..." required name="Lastname">
         </div>
 
         <div class="form-group">
           <label for="meetingEmail">Email</label>
-          <input type="email" class="form-control" id="meetingEmail" placeholder="Email..." name="entry.1230755577">
+          <input type="email" class="form-control" id="meetingEmail" placeholder="Email..." name="_replyto">
         </div>
 
         <div class="form-group">
           <label for="meetingPhone">Phone Number</label>
-          <input type="tel" class="form-control" id="meetingPhone" placeholder="Phone Number..." required name="entry.1060282357">
+          <input type="tel" class="form-control" id="meetingPhone" placeholder="Phone Number..." required name="Phonenumber">
         </div>
 
         <br>

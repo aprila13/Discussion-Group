@@ -12,13 +12,13 @@
 </head>
 <body>
 
-  
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
       <a class="navbar-brand" href="#">The Men's Group</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -50,32 +50,45 @@
     </div>
     <button class="animated infinite flash delay-10s slow" id="button"><i class="fas fa-chevron-down"></i></button>
   </div>
-  
 
-  
+
+
 
   <div class="container" id="about">
     <h2>ABOUT US</h2>
-    <div class="row">
+    <div class="row pb-5">
       <div class="col-sm-6">
-        <div class="card bg-dark text-white">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Who Are We?</h5>
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus a enim illo possimus, rerum soluta ducimus unde eum inventore nisi? Fugit culpa recusandae consequatur aut, quod tempora.</p>
-         
-          </div>
-        </div>
+        <h5 class="card-title">Who Are We?</h5>
+        <p class="pb-3">We are a small men’s group who meet biweekly in East Charlotte. This group was started with the idea of allowing men to voice their truth, without bias.</p>
+        <p>Topics include but are not limited to:</p> 
+        <ul id="topics">
+          <li>Relationships and Marriage</li>
+          <li>Finances</li>
+          <li>Faith</li>
+          <li>Religion</li>
+          <li>Politics</li>
+          <li>Family</li>
+          <li>Entertainment</li>
+        </ul>
       </div>
-      <div class="col-sm-6 second">
-        <div class="card bg-dark text-white">
-          <div class="card-img-overlay">
-            <h5 class="card-title">What Do We Do?</h5>
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus a enim illo possimus, rerum soluta ducimus unde eum inventore nisi? Fugit culpa recusandae consequatur aut, quod tempora.</p>
-                      
-          </div>
-        </div>
+      <div class="col-sm-6">
+        <img src="images/convo.jpg" alt="" class="img-thumbnail">
       </div>
-      
+    </div>
+
+
+    
+    <div class="row pt-5">
+      <div class="col-sm-6">
+        <img src="images/menTalk.jpg" alt="" class="img-thumbnail">
+      </div>
+
+      <div class="col-sm-6">
+        <h5 class="card-title">What Do We Represent?</h5>
+        <p>We believe in the idea that men can and should share their thoughts, feelings, and emotions with pure confidentiality and respect amongst other men.</p>
+        <p>The Men's Group is here to provide fellowship, connection, healing, and a helpful hand.</p>
+          
+      </div>
     </div>
   </div>
 
@@ -84,30 +97,22 @@
 
   <div class="container" id="meetings">
     <h2>MEETINGS</h2>
-    <div class="col-md-6">
-      <div class="card bg-dark text-white">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Discussion Group</h5>
-          <p> <span>TIME:</span> WEDNESDAYS @ 7 PM</p>
-          <p><span>LOCATION:</span> TBD</p>
-          <p class="card-text">In our weekly meetings we discuss... Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint adipisci recusandae provident accusamus nobis sequi, velit rem voluptas dolorum.</p>
-       <a href="WednesdaySignup.html" target="_blank"><button type="button" class="btn">Sign Up!</button></a> 
-        </div>
-      </div>
+    <div class="row">
+      <div class="col-4 text-center">
+        <h5 class="card-title">Discussion Group</h5>
+     </div>
+    <div class="col-4 text-center">
+      <p> <span>TIME:</span> EVERY OTHER TUESDAY
+        <br> @ 6:30 - 7:30 PM</p>
+      <p><span>LOCATION:</span> GIVEN THROUGH EMAIL</p>
+    </div>   
+    <div class="col-4 text-center">
+      <a href="Signup.html" target="_blank">
+        <button type="button" class="btn meeting-btn">Sign Up!</button>
+      </a>
     </div>
-    <div class="col-md-6">
-      <div class="card bg-dark third">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Discussion Group</h5>
-          <p> <span>TIME:</span> TUESDAYS @ 7 PM</p>
-          <p><span>LOCATION:</span> TBD</p>
-          <p class="card-text">In our weekly meetings we discuss... Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint adipisci recusandae provident accusamus nobis sequi, velit rem voluptas dolorum.</p>
-          <a href="tuesdaySignup.html" target="_blank"><button type="button" class="btn">Sign Up!</button></a>         
-        </div>
-      </div>
-    </div>
-    
   </div>
+</div>
 
 
   <div class="img3"></div>
@@ -115,47 +120,39 @@
   <div id="contact">
     <h2>Contact Us</h2>
     <div class="container">
-      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-    onload="if(submitted) {window.location='thankyou.html'}"></iframe>
-      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeHZAO4uDtdPdoLpc7G3jTMb4Dm8LuI22gWj3Hm-CdQ8H-Kyg/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm();">
+      
+    <form
+    action="https://formspree.io/xzbryaby"
+    method="POST" onsubmit="return validateForm();">
         <h5>Sign Up Below For Updates</h5>
         <div class="form-group">
           <label for="fName">First Name</label>
-          <input type="text" class="form-control" id="fName" placeholder="First name..." required name="entry.2015666206">
+          <input type="text" class="form-control" id="fName" placeholder="First name..." required name="Firstname">
         </div>
 
         <div class="form-group">
           <label for="lName">Last Name</label>
-          <input type="text" class="form-control" id="lName" placeholder="Last Name..." required name="entry.1480082291">
+          <input type="text" class="form-control" id="lName" placeholder="Last Name..." required name="Lastname">
         </div>
 
         <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" placeholder="Email..." name="entry.825759813">
+          <input type="email" class="form-control" id="email" placeholder="Email..." name="_replyto">
         </div>
 
         <div class="form-group">
           <label for="phone">Phone Number</label>
-          <input type="tel" class="form-control" id="phone" placeholder="Phone Number..." required name="entry.2093129349">
+          <input type="tel" class="form-control" id="phone" placeholder="Phone Number..." required name="phoneNumber">
         </div>
-     
-      
-      <button type="submit" class="btn" id="subBtn">Submit</button>
-    </form>
 
+
+      <button type="submit" class="btn" id="subBtn">Submit</button>
+    </form> 
     </div>
-    
   </div>
 
   <div class="img1">
-    <div class="address-box">
-      <p>Chat with friends</p>
-      <hr class="ruler">
-      <p>The Barber Shop</p>
-      <p>1234 Street</p>
-      <p>Charlotte, NC 28102</p>
-      
-    </div>
+    
 
     <div id="map"></div>
   </div>
@@ -166,9 +163,8 @@
             <div class="col-lg-8 offset-lg-2">
                 <div class="widget">
                     <div class="footer-text text-center">
-                            <div class="copyright">Made By April Craig
+                            <div class="copyright"><p>&copy; 2020 April Craig | Web Developer<p>
                             </div>
-                        </div>
                 </div>
             </div>
 </footer>
@@ -180,12 +176,9 @@
   <!-- Typed JS -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
-  <!-- Google Maps -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVKHDSMj8uPJ1b3x7aiZfPj1fLnplgfUg&callback=initMap"
-    async defer></script>
   <!-- Custom -->
   <script src="main.js"></script>
 
-  
+
 </body>
 </html>

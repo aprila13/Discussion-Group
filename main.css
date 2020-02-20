@@ -108,13 +108,13 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   margin: auto;
   color: black;
   background-color: #d9d7d2;
-  height: 70vh;
+  height: 90vh;
   padding: 20px;
 }
 
-#contact {
+/* #contact {
   height: 90%;
-}
+} */
 
 #contact h2 {
   text-align: center;
@@ -139,9 +139,6 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   color: white;
 }
 
-#about {
-  /* height: 170%; */
-}
 
 #about h2, #meetings h2 {
 text-align: center;
@@ -296,8 +293,8 @@ footer {
   }
 
 
-#subBtn {
+/* #subBtn {
   position: relative;
     bottom: 2px;
-  }
+  } */
 }

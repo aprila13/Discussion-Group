@@ -83,7 +83,7 @@ h1 {
   color: black;
   font-size: 3.5rem;
   text-align: center;
-  outline: none; 
+  outline: none;
 }
 
 #button{
@@ -140,7 +140,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 }
 
 #about {
-  height: 130%;
+  /* height: 170%; */
 }
 
 #about h2, #meetings h2 {
@@ -155,7 +155,7 @@ color: black;
 
 .card {
   height: 18rem;
-  
+
 border: none;
 text-align: center;
 height: 400px;
@@ -242,15 +242,15 @@ footer {
 /* media queries */
 
 @media (max-width: 575px) {
-  #about {
+  /* #about {
     height: 200%;
-  }
+  } */
 
  .meeting-btn {
    margin-top: 40%;
  }
 
- 
+
 
 }
 
@@ -295,21 +295,6 @@ footer {
     bottom: 25px;
   }
 
-  #map {
-    height: 300px;
-    width: 40%;
-  }
-
-  .img1 .address-box {
-    font-size: 2rem;
-  }
-
-  .ruler {
-    border: 0;
-    height: 1px;
-    background: white;
-    width: 70%;
-}
 
 #subBtn {
   position: relative;
